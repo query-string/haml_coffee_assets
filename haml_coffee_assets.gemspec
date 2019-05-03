@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'coffee-script', '>= 2'
   s.add_runtime_dependency 'tilt', '>= 1'
-  s.add_runtime_dependency 'sprockets', '>= 2'
-  
+  s.add_runtime_dependency 'sprockets', '~> 2.2.1'
+
   s.add_development_dependency 'bundler'
 end
